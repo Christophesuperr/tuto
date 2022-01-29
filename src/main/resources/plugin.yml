@@ -1,0 +1,34 @@
+name: Tuto
+version: ${project.version}
+main: me.mcunity.tuto.Main
+api-version: 1.16
+authors: [ MCunity ]
+commands:
+  setspawn:
+    description: Definit un point de spawn
+  spawn:
+    description: Teleport au spawn
+  eat:
+    description: Redonne de la nourriture au joueur
+  heal:
+    description: Redonne de la vie au joueur
+  fly:
+    description: Permet au joueur de voler
+  god:
+    description: Permet au joueur d'être invincible
+  vanish:
+    description: Permet au joueur d'être invisible
+  setlobby:
+    description: Definit le lobby
+  lobby:
+    description: Teleport au lobby
+  sethome:
+    description: Commande pour mettre un home
+  home:
+    description: Commande pour teleporter le joueur au home
+  delhome:
+    description: Commande pour supprimer le home
+
+
+
+
